@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+  background: #0f0f0f;
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.35);
+  color: #fff;
+}
+
+.section-padding {
+  @apply px-5 py-20 sm:px-8 lg:px-12 lg:py-28;
+}
+
+.container-luxury {
+  @apply mx-auto w-full max-w-7xl;
+}
+
+.glass-panel {
+  @apply border border-white/10 bg-white/[0.06] shadow-luxury backdrop-blur-xl;
+}
+
+.gold-text {
+  @apply bg-gold-gradient bg-clip-text text-transparent;
+}
+
+.focus-ring {
+  @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-salonGold focus-visible:ring-offset-2 focus-visible:ring-offset-salonBlack;
+}
