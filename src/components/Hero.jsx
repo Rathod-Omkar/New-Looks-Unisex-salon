@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import ButtonLink from './ButtonLink.jsx';
 
-const whatsappUrl = 'https://wa.me/0000000000?text=Hello%20NEW%20LOOKS%2C%20I%20would%20like%20to%20book%20an%20appointment.';
+const whatsappUrl = 'https://wa.me/919637965175?text=Hello%20NEW%20LOOKS%2C%20I%20would%20like%20to%20book%20an%20appointment.';
 
 export default function Hero() {
   return (
