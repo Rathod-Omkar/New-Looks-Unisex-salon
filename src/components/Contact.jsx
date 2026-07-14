@@ -4,8 +4,8 @@ import SectionHeader from './SectionHeader.jsx';
 
 const contactItems = [
   { icon: MapPin, title: 'Address', value: '123 Luxury Avenue, City Center, Your City 000000' },
-  { icon: Phone, title: 'Phone', value: '+91 00000 00000' },
-  { icon: Mail, title: 'Email', value: 'hello@newlookssalon.com' },
+  { icon: Phone, title: 'Phone', value: '+91 9637965175' },
+  { icon: Mail, title: 'Email', value: 'rathodomkar007@gmail.com' },
   { icon: Clock, title: 'Working Hours', value: 'Mon to Sun: 10:00 AM to 9:00 PM' },
 ];
 
